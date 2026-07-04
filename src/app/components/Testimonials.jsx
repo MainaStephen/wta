@@ -77,7 +77,7 @@ export default function Testimonials() {
             slidesPerView={1}
             loop={true}
             autoplay={{ delay: 4000, disableOnInteraction: false }}
-            navigation ={false}
+            navigation={false}
             pagination={false}
             breakpoints={{
               640: { slidesPerView: 2 },
@@ -92,9 +92,9 @@ export default function Testimonials() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="group"
+                  className="h-full"
                 >
-                  <div className="bg-[#f7f0f2] rounded-2xl p-8 md:p-10 hover:shadow-2xl transition-all duration-500 border border-[#E1251B]/5 hover:border-[#E1251B]/20 relative min-h-[280px] flex flex-col">
+                  <div className="bg-[#f7f0f2] rounded-2xl p-8 md:p-10 hover:shadow-2xl transition-all duration-500 border border-[#E1251B]/5 hover:border-[#E1251B]/20 relative h-[380px] flex flex-col">
                     {/* Quote icons */}
                     <div className="absolute top-6 left-6 text-[#E1251B]/10 group-hover:text-[#E1251B]/20 transition-colors duration-300">
                       <FaQuoteLeft className="w-8 h-8" />
@@ -104,7 +104,7 @@ export default function Testimonials() {
                     </div>
 
                     {/* Rating stars */}
-                    <div className="flex items-center gap-1 mb-4">
+                    <div className="flex items-center gap-1 mb-4 flex-shrink-0">
                       {[...Array(5)].map((_, i) => (
                         <FaStar
                           key={i}
@@ -113,13 +113,13 @@ export default function Testimonials() {
                       ))}
                     </div>
 
-                    {/* Quote */}
-                    <p className="text-gray-700 text-sm md:text-base leading-relaxed flex-1 relative z-10">
+                    {/* Quote - with text truncation/ellipsis if needed */}
+                    <p className="text-gray-700 text-sm md:text-base leading-relaxed flex-1 relative z-10 overflow-y-auto">
                       {testimonial.quote}
                     </p>
 
-                    {/* Author */}
-                    <div className="mt-6 pt-4 border-t border-[#E1251B]/10">
+                    {/* Author - always at bottom */}
+                    <div className="mt-6 pt-4 border-t border-[#E1251B]/10 flex-shrink-0">
                       <h4 className="font-bold text-gray-800 text-lg">
                         {testimonial.author}
                       </h4>
@@ -138,7 +138,6 @@ export default function Testimonials() {
             ))}
           </Swiper>
         </div>
-
       </div>
     </section>
   );

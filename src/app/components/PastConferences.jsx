@@ -82,7 +82,7 @@ export default function PastConferences() {
             slidesPerView={1}
             loop={true}
             autoplay={{ delay: 4000, disableOnInteraction: false }}
-            navigation
+            navigation ={false}
             breakpoints={{
               640: { slidesPerView: 2 },
               1024: { slidesPerView: 3 },

@@ -73,8 +73,7 @@ export default function Journey() {
 
         {/* Conference Timeline */}
         <div className="relative">
-          {/* Timeline line */}
-          <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-0.5 bg-[#E1251B]/20 -translate-x-1/2 hidden md:block"></div>
+        
 
           <div className="space-y-8">
             {conferences.map((conf, index) => (
