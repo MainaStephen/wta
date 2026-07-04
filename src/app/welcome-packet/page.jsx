@@ -25,7 +25,7 @@ export default function WelcomePacketPage() {
         <section className="relative overflow-hidden">
           <div
             className="py-10 relative min-h-[600px] bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/assets/hero-bg.webp')" }}
+            style={{ backgroundImage: "url('/assets/package.jpg')" }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
             <div className="absolute inset-0 bg-[#E1251B]/10"></div>

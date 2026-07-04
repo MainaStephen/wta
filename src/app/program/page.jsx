@@ -391,19 +391,19 @@ export default function SchedulePage() {
     {
       id: 1,
       label: 'Day 1',
-      date: 'December 3, 2026',
+      date: 'December 2, 2026',
       title: 'Setting The Scene',
     },
     {
       id: 2,
       label: 'Day 2',
-      date: 'December 4, 2026',
+      date: 'December 3, 2026',
       title: 'Jobs / E-Mobility / Equity',
     },
     {
       id: 3,
       label: 'Day 3',
-      date: 'December 5, 2026',
+      date: 'December 4, 2026',
       title: 'Proposed Field Visits',
     },
   ];
@@ -428,8 +428,8 @@ export default function SchedulePage() {
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div
-          className="relative h-[45vh] min-h-[350px] bg-cover bg-center flex items-center"
-          style={{ backgroundImage: "url('/assets/hero-bg.webp')" }}
+          className="relative h-[60vh] min-h-[350px] bg-cover bg-center flex items-center"
+          style={{ backgroundImage: "url('/assets/program-hero.jpg')" }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
           <div className="absolute inset-0 bg-[#E1251B]/5"></div>

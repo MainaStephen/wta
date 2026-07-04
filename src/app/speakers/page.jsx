@@ -592,8 +592,8 @@ export default function SpeakersPage() {
         {/* Hero Section */}
         <section className="relative overflow-hidden">
           <div
-            className="relative h-[50vh] min-h-[400px] bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/assets/hero-bg.webp')" }}
+            className="relative h-[70vh] min-h-[400px] bg-cover bg-center flex items-center"
+            style={{ backgroundImage: "url('/assets/speakers-hero.jpg')" }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
             <div className="absolute inset-0 bg-[#E1251B]/5"></div>

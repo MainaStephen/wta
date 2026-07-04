@@ -51,8 +51,8 @@ export default function ContactPage() {
       <div className="min-h-screen bg-white">
         {/* Hero Section */}
         <section className="relative overflow-hidden">
-          <div className="relative h-[45vh] min-h-[350px] bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/assets/hero-bg.webp')" }}
+          <div className="relative h-[65vh] min-h-[350px] bg-cover bg-center flex items-center"
+            style={{ backgroundImage: "url('/assets/contact.jpg')" }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
             <div className="absolute inset-0 bg-[#E1251B]/10"></div>

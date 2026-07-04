@@ -8,11 +8,31 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const images = [
-  "/assets/images1.webp",
-  "/assets/image2.webp",
-  "/assets/image3.webp",
-  "/assets/image4.webp",
-  "/assets/image5.webp",
+  "/assets/home-slider/slider21.jpg",
+  "/assets/home-slider/slider1.jpg",
+  "/assets/home-slider/slider2.jpg",
+  "/assets/home-slider/slider3.jpg",
+  "/assets/home-slider/slider4.jpg",
+  "/assets/home-slider/slider5.jpg",
+  "/assets/home-slider/slider6.jpg",
+   "/assets/home-slider/slider17.jpg",
+  "/assets/home-slider/slider7.jpg",
+  "/assets/home-slider/slider8.jpg",
+  "/assets/home-slider/slider19.jpg",
+  "/assets/home-slider/slider9.jpg",
+  "/assets/home-slider/slider10.jpg",
+  "/assets/home-slider/slider11.jpg",
+  "/assets/home-slider/slider12.jpg",
+  "/assets/home-slider/slider13.jpg",
+  "/assets/home-slider/slider14.jpg",
+  "/assets/home-slider/slider15.jpg",
+  "/assets/home-slider/slider16.jpg",
+ 
+  "/assets/home-slider/slider18.jpg",
+  
+  "/assets/home-slider/slider20.jpg",
+  
+ 
   
 ];
 

@@ -119,7 +119,7 @@ export default function Details() {
           >
             <div className="relative w-full max-w-[280px] aspect-square rounded-2xl overflow-hidden shadow-2xl group">
               <Image
-                src="/assets/image6.png"
+                src="/assets/all-you-need-to-know.jpg"
                 alt="Women and Transport Africa Conference"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

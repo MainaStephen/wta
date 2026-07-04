@@ -107,7 +107,7 @@ export default function Speakers() {
             <div className="relative group">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/assets/speakers.webp"
+                  src="/assets/speaker.jpg"
                   alt="Women and Transport Africa Conference Speakers"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"

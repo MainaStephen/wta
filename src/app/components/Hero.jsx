@@ -51,18 +51,18 @@ export default function Hero() {
   return (
     <section
       className="relative h-screen min-h-[600px] w-full bg-cover bg-center flex items-center justify-center overflow-hidden"
-      style={{ backgroundImage: "url('/assets/hero-bg.webp')" }}
+      style={{ backgroundImage: "url('/assets/hero3.jpg')" }}
     >
       {/* Gradient overlay for better text readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80"></div>
 
       {/* Decorative brand accent overlay */}
-      <div className="absolute inset-0 bg-[#E1251B]/10"></div>
+      <div className="absolute inset-0 bg-[#FF0D00]/10"></div>
 
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 text-center w-full">
         {/* Tag */}
         <div className="inline-block bg-[#E1251B] text-white px-5 py-1.5 rounded-full text-xs md:text-sm font-semibold tracking-wider mb-3 shadow-lg">
-          Reclaiming Mobility Futures
+          Theme: Reclaiming Mobility Futures
         </div>
 
         {/* Subtitle */}
@@ -79,7 +79,7 @@ export default function Hero() {
         {/* Key Message */}
         <div className="max-w-2xl mx-auto mt-4">
           <p className="text-white/90 text-sm md:text-base leading-relaxed px-2">
-            <span className="text-[#E1251B] font-bold">&quot;Transport isn&apos;t just infrastructure.&quot;</span>
+            <span className="text-[#fff] font-bold">&quot;Transport isn&apos;t just infrastructure.&quot;</span>
             <br />
             <span className="text-white/80">It&apos;s a lever for equity, climate action, and economic transformation.</span>
           </p>

@@ -152,7 +152,7 @@ export default function DonatePage() {
         <section className="relative overflow-hidden">
           <div
             className="relative h-[70vh] min-h-[400px] bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/assets/hero-bg.webp')" }}
+            style={{ backgroundImage: "url('/assets/donate2.jpg')" }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
             <div className="absolute inset-0 bg-[#E1251B]/10"></div>

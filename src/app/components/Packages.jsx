@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import Link from "next/link";
@@ -16,7 +16,9 @@ import {
   FaTicketAlt,
   FaUser,
   FaGlobe,
-  FaCalendarCheck
+  FaCalendarCheck,
+  FaChevronLeft,
+  FaChevronRight
 } from "react-icons/fa";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -27,7 +29,7 @@ const sponsorshipPackages = [
     price: "KSh 650,000.00",
     usd: "USD 5,000",
     slug: "bronze-package",
-    image: "/assets/bronze.png",
+    image: "/assets/bronze2.jpg",
     tier: "bronze",
     icon: FaGem,
     color: "from-amber-400 to-amber-600",
@@ -44,7 +46,7 @@ const sponsorshipPackages = [
     price: "KSh 980,000.00",
     usd: "USD 7,500",
     slug: "silver-package",
-    image: "/assets/silver.png",
+    image: "/assets/silver2.jpg",
     tier: "silver",
     icon: FaMedal,
     color: "from-gray-400 to-gray-500",
@@ -62,7 +64,7 @@ const sponsorshipPackages = [
     price: "KSh 1,300,000.00",
     usd: "USD 10,000",
     slug: "gold-package",
-    image: "/assets/gold.png",
+    image: "/assets/gold2.jpg",
     tier: "gold",
     icon: FaStar,
     color: "from-yellow-400 to-yellow-600",
@@ -81,7 +83,7 @@ const sponsorshipPackages = [
     price: "KSh 2,000,000.00",
     usd: "USD 15,000",
     slug: "platinum-package",
-    image: "/assets/official-partner.png",
+    image: "/assets/official2.jpg",
     tier: "Official Partner",
     icon: FaCrown,
     color: "from-purple-400 to-purple-600",
@@ -132,6 +134,8 @@ const ticketPackages = [
 export default function Packages() {
   const [selectedPackage, setSelectedPackage] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
 
   const openModal = (pkg) => {
     setSelectedPackage(pkg);
@@ -209,13 +213,35 @@ export default function Packages() {
             </p>
           </motion.div>
 
-          {/* Sponsorship Packages Carousel */}
-          <div className="mt-12">
+          {/* Sponsorship Packages Carousel with Custom Navigation */}
+          <div className="mt-12 relative">
+            {/* Custom Navigation Buttons */}
+            <button
+              ref={prevRef}
+              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 rounded-full bg-[#E1251B] text-white shadow-lg shadow-[#E1251B]/30 hover:bg-[#A61F1F] hover:shadow-xl hover:shadow-[#E1251B]/40 transition-all duration-300 flex items-center justify-center group"
+              aria-label="Previous slide"
+            >
+              <FaChevronLeft className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
+            </button>
+            <button
+              ref={nextRef}
+              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 rounded-full bg-[#E1251B] text-white shadow-lg shadow-[#E1251B]/30 hover:bg-[#A61F1F] hover:shadow-xl hover:shadow-[#E1251B]/40 transition-all duration-300 flex items-center justify-center group"
+              aria-label="Next slide"
+            >
+              <FaChevronRight className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
+            </button>
+
             <Swiper
               modules={[Navigation]}
               spaceBetween={24}
               slidesPerView={1}
-              navigation
+              autoplay={{ delay: 5000, disableOnInteraction: false }}
+              loop={true}
+           
+              onBeforeInit={(swiper) => {
+                swiper.params.navigation.prevEl = prevRef.current;
+                swiper.params.navigation.nextEl = nextRef.current;
+              }}
               breakpoints={{
                 640: { slidesPerView: 2 },
                 1024: { slidesPerView: 3 },
@@ -292,7 +318,7 @@ export default function Packages() {
               })}
             </div>
 
-            {/* Tickets CTA */}
+            {/* Tickets CTA - commented out as per original */}
             {/* <div className="text-center mt-8">
               <Link
                 href="/registration#tickets"
@@ -303,8 +329,6 @@ export default function Packages() {
               </Link>
             </div> */}
           </motion.div>
-
-      
         </div>
       </section>
 

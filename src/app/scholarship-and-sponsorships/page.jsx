@@ -29,7 +29,7 @@ export default function ScholarshipsSponsorshipsPage() {
         <section className="h-[60vh] relative overflow-hidden">
           <div
             className="relative h-[60vh] bg-cover bg-center flex items-center"
-            style={{ backgroundImage: "url('/assets/hero-bg.webp')" }}
+            style={{ backgroundImage: "url('/assets/sponsorship.jpg')" }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
             <div className="absolute inset-0 bg-[#E1251B]/5"></div>
