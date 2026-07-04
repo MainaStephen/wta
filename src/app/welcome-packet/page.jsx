@@ -24,7 +24,7 @@ export default function WelcomePacketPage() {
         {/* Hero Section */}
         <section className="relative overflow-hidden">
           <div
-            className="relative min-h-[600px] bg-cover bg-center flex items-center"
+            className="py-10 relative min-h-[600px] bg-cover bg-center flex items-center"
             style={{ backgroundImage: "url('/assets/hero-bg.webp')" }}
           >
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30"></div>
@@ -126,12 +126,14 @@ export default function WelcomePacketPage() {
               viewport={{ once: true }}
               className="bg-[#f7f0f2] rounded-3xl p-8 md:p-10 shadow-lg border border-gray-100"
             >
-              <div className="flex items-start gap-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#E1251B] flex items-center justify-center text-white text-xl flex-shrink-0">
-                  <FaEnvelope className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-bold text-gray-800 font-['Josefin_Sans']">
+              <div className="w-full flex flex-col md:flex-row items-start gap-4 md:gap-6">
+                {/* Optional: Add an icon here if needed */}
+                {/* <div className="flex-shrink-0">
+          <FaEnvelope className="w-8 h-8 text-[#E1251B]" />
+        </div> */}
+
+                <div className="w-full">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-800 font-['Josefin_Sans']">
                     Contact Information
                   </h3>
                   <p className="text-gray-600 text-sm mt-2">
@@ -139,33 +141,33 @@ export default function WelcomePacketPage() {
                     as hassle-free as possible. If you have any questions before
                     or during your travels, contact us:
                   </p>
-                  <div className="mt-4 space-y-2">
-                    <div className="flex items-start gap-3 text-sm">
-                      <span className="font-semibold text-[#E1251B] min-w-[120px]">
+                  <div className="mt-4 space-y-3">
+                    <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3 text-sm">
+                      <span className="font-semibold text-[#E1251B] sm:min-w-[120px]">
                         Juliet Rita
                       </span>
                       <span className="text-gray-600">
                         WIT Conference Organizer
                       </span>
                     </div>
-                    <div className="flex items-start gap-3 text-sm">
-                      <span className="font-semibold text-[#E1251B] min-w-[120px]">
+                    <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3 text-sm">
+                      <span className="font-semibold text-[#E1251B] sm:min-w-[120px]">
                         Email
                       </span>
                       <a
                         href="mailto:witconference@floneinitiative.org"
-                        className="text-[#E1251B] hover:underline"
+                        className="text-[#E1251B] hover:underline break-words"
                       >
                         witconference@floneinitiative.org
                       </a>
                     </div>
-                    <div className="flex items-start gap-3 text-sm">
-                      <span className="font-semibold text-[#E1251B] min-w-[120px]">
+                    <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3 text-sm">
+                      <span className="font-semibold text-[#E1251B] sm:min-w-[120px]">
                         Flone Initiative
                       </span>
                       <a
                         href="mailto:communications@floneinitiative.org"
-                        className="text-[#E1251B] hover:underline"
+                        className="text-[#E1251B] hover:underline break-words"
                       >
                         communications@floneinitiative.org
                       </a>

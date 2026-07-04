@@ -238,16 +238,7 @@ export default function ContactPage() {
                   Chat on WhatsApp
                 </a>
 
-                {/* Image */}
-                <div className="mt-8 rounded-2xl overflow-hidden shadow-lg">
-                  <Image
-                    src="/assets/contact.webp"
-                    alt="Contact us"
-                    width={600}
-                    height={400}
-                    className="w-full h-auto object-cover"
-                  />
-                </div>
+               
               </motion.div>
 
               {/* Right - Contact Form */}
