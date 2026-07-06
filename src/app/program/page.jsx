@@ -577,8 +577,7 @@ export default function SchedulePage() {
                   Conference Venue
                 </h3>
                 <p className="text-gray-600 mt-1">
-                  Simba Corp (Mitsubishi) Aspire Centre, Westlands, Nairobi,
-                  Kenya
+                  TBC | Nairobi Kenya
                 </p>
                 <div className="mt-3 flex flex-wrap gap-4">
                   <a

@@ -218,8 +218,7 @@ export default function WelcomePacketPage() {
                   Venue
                 </h3>
                 <p className="text-gray-600 text-sm mt-2 leading-relaxed">
-                  Simba Corp (Mitsubishi) Aspire Centre, Westlands, Nairobi,
-                  Kenya
+                  TBC | Nairobi Kenya
                 </p>
                 <a
                   href="https://maps.app.goo.gl/mfs894MrDx9MRkzS7"

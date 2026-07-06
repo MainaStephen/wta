@@ -22,7 +22,7 @@ export default function Details() {
     {
       icon: FaMapMarkerAlt,
       title: "Location",
-      content: "Simba Corp (Mitsubishi) Aspire Centre, Westlands, Nairobi, Kenya",
+      content: "TBC | Nairobi Kenya",
     },
     {
       icon: FaLaptop,
