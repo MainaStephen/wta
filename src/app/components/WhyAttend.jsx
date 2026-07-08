@@ -180,7 +180,7 @@ export default function WhyAttend() {
             <div className="bg-gradient-to-r from-[#E1251B] to-[#A61F1F] rounded-2xl p-6 text-white text-center">
               <p className="font-semibold text-sm mb-2">Ready to make an impact?</p>
               <a
-                href="/registration"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform"
                 className="inline-block bg-white text-[#E1251B] px-6 py-2 rounded-full font-semibold text-sm hover:shadow-lg transition-all hover:scale-105"
               >
                 Secure Your Seat →

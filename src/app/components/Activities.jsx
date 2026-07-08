@@ -133,7 +133,7 @@
 //               </p>
 //               <div className="flex flex-wrap gap-4 justify-center mt-6">
 //                 <a
-//                   href="/registration"
+//                   href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform"
 //                   className="inline-flex items-center gap-2 bg-white text-[#E1251B] px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all hover:scale-105 duration-300"
 //                 >
 //                   Register Now

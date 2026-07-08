@@ -71,7 +71,7 @@ export default function WelcomePacketPage() {
                       <FaArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                     <Link
-                      href="/registration"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform"
                       className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-3.5 rounded-[1em_0] font-semibold hover:bg-white hover:text-[#E1251B] transition-all duration-300"
                     >
                       <FaTicketAlt className="w-4 h-4" />
@@ -271,7 +271,7 @@ export default function WelcomePacketPage() {
                   Register now to secure your seat at the conference
                 </p>
                 <Link
-                  href="/registration"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform"
                   className="inline-flex items-center gap-1 text-[#E1251B] text-sm font-semibold mt-3 hover:underline group"
                 >
                   Register Here

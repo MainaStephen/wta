@@ -548,7 +548,7 @@ const SpeakerModal = ({ speaker, isOpen, onClose }) => {
                 {/* CTA */}
                 <div className="mt-6">
                   <Link
-                    href="/registration"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform"
                     className="w-full inline-flex items-center justify-center gap-2 bg-[#E1251B] text-white px-6 py-3 rounded-[1em_0] font-semibold hover:bg-transparent hover:text-[#E1251B] hover:border-2 hover:border-[#E1251B] transition-all duration-300"
                   >
                     <FaMicrophone className="w-4 h-4" />
@@ -853,7 +853,7 @@ export default function SpeakersPage() {
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center mt-6">
                   <Link
-                    href="/registration"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform"
                     className="inline-flex items-center gap-2 bg-white text-[#E1251B] px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all hover:scale-105 duration-300"
                   >
                     Register Now

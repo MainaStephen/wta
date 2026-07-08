@@ -95,13 +95,13 @@ export default function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6">
           <Link
-            href="/registration"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform"
             className="bg-[#E1251B] text-white px-8 md:px-10 py-3 md:py-3.5 rounded-[1em_0] font-semibold text-sm md:text-base hover:bg-white hover:text-[#E1251B] hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
             Register Now
           </Link>
           <Link
-            href="/sponsorship-packages"
+            href="/scholarship-and-sponsorships"
             className="bg-transparent border-2 border-white text-white px-8 md:px-10 py-3 md:py-3.5 rounded-[1em_0] font-semibold text-sm md:text-base hover:bg-white hover:text-[#E1251B] transition-all duration-300 transform hover:scale-105"
           >
             Partner With Us

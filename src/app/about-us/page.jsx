@@ -80,7 +80,7 @@ export default function AboutUs() {
 
                   <div className="flex flex-wrap gap-4 mt-8">
                     <Link
-                      href="/registration"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform"
                       className="inline-flex items-center gap-2 bg-[#E1251B] text-white px-8 py-3.5 rounded-[1em_0] font-semibold hover:bg-white hover:text-[#E1251B] hover:shadow-xl transition-all duration-300 transform hover:scale-105 group"
                     >
                       Register Now

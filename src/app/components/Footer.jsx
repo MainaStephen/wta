@@ -111,7 +111,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/registration" className="text-sm text-gray-600 hover:text-[#E1251B] transition-colors duration-300 flex items-center gap-2">
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSesFn7D1B1K3ngmz007QvpdYt_4H-kr2NHw5GeixArcjGfZ8g/viewform" className="text-sm text-gray-600 hover:text-[#E1251B] transition-colors duration-300 flex items-center gap-2">
                     <span className="w-1 h-1 bg-[#E1251B] rounded-full"></span>
                     Register
                   </Link>
