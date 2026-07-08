@@ -90,13 +90,13 @@ export default function Details() {
                   gender-responsive, inclusive, and climate-resilient transport systems across Africa.
                 </p>
                 <div className="flex flex-wrap gap-3 mt-6">
-                  <Link
+                  {/* <Link
                     href="/registration#tickets"
                     className="inline-flex items-center gap-2 bg-[#E1251B] text-white px-6 py-3 rounded-[1em_0] font-semibold hover:bg-transparent hover:text-[#E1251B] hover:border-2 hover:border-[#E1251B] transition-all duration-300"
                   >
                     <FaTicketAlt className="w-4 h-4" />
                     Get Tickets
-                  </Link>
+                  </Link> */}
                   <Link
                     href="/program"
                     className="inline-flex items-center gap-2 bg-transparent border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-[1em_0] font-semibold hover:border-[#E1251B] hover:text-[#E1251B] transition-all duration-300"

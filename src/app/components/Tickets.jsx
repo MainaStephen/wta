@@ -115,7 +115,7 @@ export default function Tickets() {
           </div>
 
           {/* Tickets CTA */}
-          <div className="text-center mt-8">
+          {/* <div className="text-center mt-8">
             <Link
               href="/registration#tickets"
               className="inline-flex items-center gap-2 bg-[#E1251B] text-white px-8 py-3 rounded-[1em_0] font-semibold hover:bg-transparent hover:text-[#E1251B] hover:border-2 hover:border-[#E1251B] transition-all duration-300"
@@ -124,7 +124,7 @@ export default function Tickets() {
               Purchase Tickets
               <FaArrowRight className="w-4 h-4" />
             </Link>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </section>
